@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2BChosen</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+
+
+<body>
+  <!-- Start of header -->
+  <header>
+    <div id="stars-box">
+      <img id="left-star" src="./images/bigger-star.png" alt="An image of a big star in the left side">
+      <img id="center-star" src="./images/smaller-star.png" alt="An image of a small star in the center">
+      <img id="right-star" src="./images/bigger-star.png" alt="An image of a big star in the right side">
+    </div>
+
+    <div>
+      <img class="responsive-image" id="header-image" src="./images/header-food.png" alt="An image of a food plate ready to be eaten">
+    </div>
+  </header>
+  <!-- End of header -->
+
+
+
+  <!-- Start of the main -->
+  <main>
+    <!-- Start of bellow-header-image-section -->
+    <section id="bellow-header-image-section">
+
+      <div class="first-main-section-boxes">
+        <img src="./images/eletric-door.png" alt="An image of an eletric door">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem nec, augue vel mollis</p>
+      </div>
+
+
+      <div class="first-main-section-boxes">
+        <img src="./images/sensor-door.png" alt="An image of a sensor door">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem nec, augue vel mollis</p>
+      </div>
+
+
+      <div class="first-main-section-boxes">
+        <img src="./images/banket-flower-painting.png" alt="An image of a banket, flower pot and painting in the wall">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem nec, augue vel mollis</p>
+      </div>
+
+    </section>
+    <!-- End of bellow-header-image-section -->
+
+
+    <!-- Start of the main-description-section box. The following section has two sides (left and right) divided by their respective "div" using flex-box -->
+    <section id="main-description-section">
+
+      <!--Start of the left side -->
+      <div id="left-side-description-section">
+        <div id="h2-description-box">
+          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        </div>
+
+        <div id="p-description-box">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem nec, augue vel mollis purus mauris, posuere volutpat. Cras vel nunc commodo nulla pharetra, lectus. Sit sed in sed nunc arcu eu. Netus ligula duis quis sed dui in tortor dolor ultrices.</p>
+        </div>
+      </div>
+      <!-- End of the left side -->
+
+      <!-- Start of the right side -->
+      <div id="right-side-description-section">
+        <img class="responsive-image" id="contemporanean-cuisine-plate-image" src="./images/contemporanean-cuisine-plate.png" alt="A photo of a contemporanean cuisine plate">
+      </div>
+    </section>
+    <!-- End of the right side -->
+    <!-- End of the main-description-section box -->
+
+
+    <!-- Start of the dinner-table-section -->
+    <section id="dinner-table-section">
+
+      <img class="responsive-image" id="dinner-table-image" src="./images/dinner-table.png" alt="A photo of a served dinner table ">
+
+    </section>
+    <!-- End of the dinner-table-section -->
+
+
+    <!-- Start of the photos-galery -->
+    <section id="photos-galery">
+
+      <figure id="figure-photos-galery">
+
+        <figcaption id="galeria-de-fotos">Galeria de Fotos</figcaption>
+        <img class="responsive-image" id="breakfast-table-image" src="./images/breakfast-table.png" alt="A photo filled with food for a breakfast">
+
+      </figure>
+
+      <div id="photos-galery-display">
+        <div class="individual-photo-galery-box">
+          <img class="responsive-image" id="photo-galery-display1" src="./images/photo-galery-display1.png" alt="A photo of a strawberry cake">
+        </div>
+
+        <div class="individual-photo-galery-box">
+          <img class="responsive-image" id="photo-galery-display2" src="./images/photo-galery-display2.png" alt="A photo of a hamburger">
+        </div>
+
+        <div class="individual-photo-galery-box">
+          <img class="responsive-image" id="photo-galery-display3" src="./images/photo-galery-display3.png" alt="A photo of a spicy dish">
+        </div>
+
+        <div class="individual-photo-galery-box">
+          <img class="responsive-image" id="photo-galery-display4" src="./images/photo-galery-display4.png" alt="A photo of a lunch dish">
+        </div>
+
+        <div id="display5-box" class="individual-photo-galery-box">
+          <img class="responsive-image" id="photo-galery-display5" src="./images/photo-galery-display5.png" alt="A photo of a hamburger with onions inside">
+        </div>
+
+      </div>
+    </section>
+    <!-- End of the photos-galery -->
+
+
+    <!-- Start of contact-form -->
+    <section id="contact-form">
+
+      <div id="h2-contact-box">
+        <h2>Contato</h2>
+      </div>
+
+      <!-- Start of form -->
+      <form id="contato" action="test2bchosen@gmail.com">
+
+        <div class="contact-individual-boxes">
+          <label for="name">Nome<br>
+            <input type="text" name="name" id="name">
+          </label>
+        </div>
+
+        <br>
+
+        <!-- The minimum length was thought to be a residential number without the country and area code, whereas the maximum length was thought to be a mobile phone number with the country code plus the area code like this exemple: +55(048)98888-3131 -->
+        <div class="contact-individual-boxes">
+          <label for="telephone">Telefone <br>
+            <input type="tel" name="telephone" id="telephone" minlength="8" maxlength="18">
+          </label>
+        </div>
+
+        <br>
+
+        <div class="contact-individual-boxes">
+          <label for="email">E-Mail <br>
+            <input type="email" name="email" id="email">
+          </label>
+        </div>
+
+        <br>
+
+        <div class="contact-individual-boxes">
+          <label for="message">Mensagem <br>
+            <textarea type="text" name="message" id="message" ></textarea>
+          </label>
+        </div>
+
+        <br>
+
+        <div id="submit-buttom" class="contact-individual-boxes">
+          <input id="enviar" type="submit" value="ENVIAR">
+        </div>
+
+      </form>
+      <!-- End of form -->
+
+    </section>
+    <!-- End of contact-form -->
+
+  </main>
+  <!-- End of the main -->
+
+
+  <!-- Start of footer -->
+  <footer>
+    <div id="footer-first-line">
+      <span>
+        <img src="./images/icon-awesome-map-marker-alt.png" alt="">
+        R. Tailândia, 72, Bairro das Nações, Balneário Camboriú-SC
+      </span>
+    </div>
+
+    <div id="footer-second-line">
+      <span>
+        <img src="./images/icon-awesome-phone-alt.png" alt="">
+        (47) 2233-3500
+      </span>
+    </div>
+
+    <div id="footer-icons-box">
+      <a href="https://www.instagram.com/" target="_blank"><img class="footer-link-icons" src="./images/icon-awesome-instagram.png" alt="Click here to open 2BChosen instagran page"></a>
+
+      <a href="https://pt-br.facebook.com/"  target="_blank"><img class="footer-link-icons" src="./images/icon-awesome-facebook-square.png" alt="Click here to open 2BChosen facebook page"></a>
+
+      <a href="https://br.linkedin.com/"  target="_blank"><img class="footer-link-icons" src="./images/icon-awesome-linkedin.png" alt="Click here to open 2BChosen linkedin page"></a>
+
+      <a href="https://www.youtube.com/"  target="_blank"><img class="footer-link-icons" src="./images/icon-awesome-youtube-square.png" alt="Click here to open 2BChosen youtube chanel"></a>
+      
+    </div>
+  </footer>
+  <!-- End of footer -->
+</body>
+</html>

@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+body {
+  font-family: 'Archivo', sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* --- Responsive code for all images ---*/
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
+/* --- Start of header code ---*/
+/* Start of the 3 stars images code */
+#stars-box {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#left-star {
+  margin-right: -1rem;
+}
+
+#center-star {
+  margin-top: -0.8em;
+}
+
+#right-star {
+  margin-left: -1rem;
+}
+/* --- End of the 3 stars images code ---*/
+/* --- End of header ---*/
+
+
+
+/* --- Start of main ---*/
+section#bellow-header-image-section {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5rem 20% 5rem 20%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.first-main-section-boxes {
+  flex: 1 1;
+  margin: 0 4% 0 4%;
+}
+
+div.first-main-section-boxes > p {
+  margin-top: 18%;
+}
+/* --- Start of the main-description-section box. Be aware that this box is split in two sides using flex-box ---*/
+section#main-description-section {
+  display: flex;
+
+  padding: 0 7% 0 7%;
+  align-items: center;
+
+}
+
+/* --- Start of the left side ---*/
+div#left-side-description-section {
+  flex: 1 1;
+  flex-direction: column;
+}
+
+div#h2-description-box {
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-bottom: 15%;
+}
+
+div#p-description-box {
+  font-size: 1.6em;
+  margin-top: 15%;
+}
+/* --- End of the left side ---*/
+
+/* --- Start of the right side ---*/
+div#right-side-description-section {
+  margin-left: 3%;
+  flex: 1 1;
+}
+/* --- End of the right side ---*/
+/* --- End of the main-description-section box ---*/
+
+
+/* --- Start of the dinner-table-section ---*/
+section#dinner-table-section {
+  margin: 5% 0 10% 0;
+}
+/* --- End of the dinner-table-section ---*/
+
+
+/* --- Start of the photos-galery section ---*/
+section#photos-galery {
+  margin: 0 15% 0 15%;
+}
+
+figure#figure-photos-galery {
+  margin: 0;
+}
+
+figcaption#galeria-de-fotos {
+  font-size:4rem;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+
+div#photos-galery-display {
+  margin: 2% 0 2% 0;
+  display: flex;
+}
+
+.individual-photo-galery-box {
+  flex: 1 1;
+  margin-right: 1.5%; 
+}
+
+div#display5-box {
+  margin-right: 0;
+}
+/* --- End of the photos-galery section ---*/
+
+
+/* --- Start of contact-form ---*/
+section#contact-form {
+  text-transform: uppercase;
+  max-width: 35%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  line-height: 2;
+}
+
+#h2-contact-box {
+  margin: 15% 0 15% 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact-individual-boxes {
+  text-align: start;
+  font-size: 1.3rem;
+}
+
+input, textarea {
+  color: rgb(207, 207, 207);
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 100%;
+  background: hsla(0, 0%, 100%, 0.219);
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+textarea {
+  min-height: 15rem;
+  resize: none;
+}
+
+div#submit-buttom {
+  background-color: white;
+  padding: 1%;
+}
+
+#enviar {
+  color: black;
+  font-weight: 400;
+}
+/* --- End of contact-form --- */
+/* --- End of main --- */
+
+
+/* --- Start of footer --- */
+footer {
+  margin: 5% 32% 0 32%;
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 3;
+}
+
+span > img {
+  margin-right: 3%;
+}
+
+/* --- Se refere ao box dos 4 ícones das redes sociais --- */
+div#footer-icons-box {
+  position: relative;
+  bottom: 5rem;
+  left: 20rem;
+  max-width: 130px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* Se refere ao espaçamento lateral dos 4 ícones de link das redes sociais --- */
+div > a {
+  margin: 0 1% 0 1%;
+}
+/* --- End of footer --- */
+
+
+
+/* --- Start of Medias query / Responsividade --- */
+/* --- Start of media query min-width 2560px --- */
+@media (min-width: 2560px) {
+
+  html {
+    font-size: 20px;
+  }
+
+  #left-star {
+    margin-right: -1rem;
+    width: 70px;
+    height: 70px;
+  }
+  
+  #center-star {
+    margin-top: -1em;
+    width: 40px;
+    height: 40px;
+  }
+  
+  #right-star {
+    margin-left: -1rem;
+    width: 70px;
+    height: 70px;
+  }
+
+  div.first-main-section-boxes > img {
+    width: 120px;
+    height: 120px;
+  }
+
+  div#footer-icons-box {
+    position: relative;
+    bottom: 6rem;
+    left: 60rem;
+    max-width: 230px;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  span > img {
+    width: 20px;
+    height: auto;
+  }
+
+  .footer-link-icons {
+    width: 30px;
+    height: auto;
+  }
+
+  div > a {
+    margin: 0 5% 0 5%;
+  }
+}
+/* --- End of media query min-width 2560px --- */
+
+
+/* --- Start of media query max-width 1440px --- */
+@media (max-width: 1440px) {
+
+  section#contact-form {
+    max-width: 45%;
+  }
+
+  html {
+    font-size: 12px;
+  }
+
+  #left-star {
+    margin-right: -1.2rem;
+    width: 53px;
+    height: 53px;
+  }
+  
+  #center-star {
+    margin-top: -1em;
+    width: 30.2px;
+    height: 30.2px;
+  }
+  
+  #right-star {
+    margin-left: -1.2rem;
+    width: 53px;
+    height: 53px;
+  }
+
+  div#footer-icons-box {
+    position: relative;
+    bottom: 5rem;
+    left: 55rem;
+    max-width: 180px;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  div > a {
+    margin: 0 5% 0 5%;
+  }
+}
+/* End of media query max-width 1440px*/
+
+
+/* --- Start of media query max-width 1360px --- */
+@media (max-width: 1360px) {
+
+  section#contact-form {
+    max-width: 45%;
+  }
+
+  html {
+    font-size: 12px;
+  }
+
+  #left-star {
+    margin-right: -1.2rem;
+    width: 53px;
+    height: 53px;
+  }
+  
+  #center-star {
+    margin-top: -1em;
+    width: 30.2px;
+    height: 30.2px;
+  }
+  
+  #right-star {
+    margin-left: -1.2rem;
+    width: 53px;
+    height: 53px;
+  }
+}
+/* --- End of media query max-width 1360px --- */
+
+
+/* --- Start of media query max-width 1024px --- */
+@media (max-width: 1024px) {
+
+  section#contact-form {
+    max-width: 55%;
+  }
+
+  html {
+    font-size: 10px;
+  }
+
+  #h2-contact-box {
+    margin: 15% 0 10% 0;
+  }
+
+  footer {
+    margin: 5% 30% 0 30%;
+  }
+
+  div#footer-icons-box {
+    left: 130%;
+  }
+
+  #left-star {
+    margin-right: -1.3rem;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #center-star {
+    margin-top: -1.1em;
+    width: 28.5px;
+    height: 28.5px;
+  }
+  
+  #right-star {
+    margin-left: -1.3rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  div.first-main-section-boxes > img {
+    height: 70px;
+    width: 70px;
+  }
+
+  span > img {
+    width: 15px;
+    height: auto;
+  }
+
+  div#footer-icons-box {
+    left: 48rem;
+  }
+}
+/* --- End of media query max-width 1024px --- */
+
+
+/* --- Start of media query max-width 768px --- */
+@media (max-width: 768px) {
+  section#contact-form {
+    max-width: 60%;
+  }
+
+  html {
+    font-size: 8px;
+  }
+
+  #left-star {
+    margin-right: -1.2rem;
+    width: 40px;
+    height: 40px;
+  }
+  
+  #center-star {
+    margin-top: -1em;
+    width: 22.8px;
+    height: 22.8px;
+  }
+  
+  #right-star {
+    margin-left: -1.2rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  div.first-main-section-boxes > img {
+    height: 50px;
+    width: 50px;
+  }
+
+  footer {
+    margin: 5% 25% 0 25%;
+  }
+
+  div#footer-icons-box {
+    left: 100%;
+  }
+
+  span > img {
+    width: 13px;
+    height: auto;
+  }
+
+  .footer-link-icons {
+    width: 18px;
+    height: auto;
+  }
+}
+/* --- End of media query max-width 768px --- */
+
+
+/* --- Start of media query max-width 425px --- */
+@media (max-width: 425px) {
+  section#contact-form {
+    max-width: 80%;
+  }
+
+  html {
+    font-size: 4px;
+  }
+
+  #left-star {
+    margin-right: -1.9rem;
+    width: 25px;
+    height: 25px;
+  }
+  
+  #center-star {
+    margin-top: -1.7em;
+    width: 16px;
+    height: 16px;
+  }
+  
+  #right-star {
+    margin-left: -1.9rem;
+    width: 25px;
+    height: 25px;
+  }
+
+  section#main-description-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  div.first-main-section-boxes > img {
+    height: 25px;
+    width: 25px;
+  }
+
+  div#left-side-description-section {
+    min-width: 80%;
+  }
+
+  div#right-side-description-section {
+    min-width: 50%;
+    max-width: 80%;
+    margin: 5% auto 5% auto;
+  }
+
+  div#h2-description-box {
+    margin-bottom: 5%;
+}
+
+  div#p-description-box {
+    margin-top: 5%;
+}
+
+  footer {
+    margin: 5% 25% 0 25%;
+  }
+
+  div#footer-icons-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: initial;
+    margin: 7% auto 7% auto;
+  }
+
+  span > img {
+    width: 13px;
+    height: auto;
+  }
+
+  .footer-link-icons {
+    width: 13px;
+    height: auto;
+  }
+}
+/* --- End of media query max-width 425px --- */
+
+
+/* --- Start of media query max-width 375px --- */
+@media (max-width: 375px) {
+  section#contact-form {
+    max-width: 80%;
+  }
+
+  html {
+    font-size: 4px;
+  }
+
+  #left-star {
+    margin-right: -2rem;
+    width: 25px;
+    height: 25px;
+  }
+  
+  #center-star {
+    margin-top: -2em;
+    width: 14,5px;
+    height: 14,5px;
+  }
+  
+  #right-star {
+    margin-left: -2rem;
+    width: 25px;
+    height: 25px;
+  }
+
+  div.first-main-section-boxes > img {
+    height: 25px;
+    width: 25px;
+  }
+
+  footer {
+    margin: 5% 20% 0 20%;
+  }
+
+  div#footer-icons-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: initial;
+  }
+
+  span > img {
+    width: 13px;
+    height: auto;
+  }
+
+  .footer-link-icons {
+    width: 13px;
+    height: auto;
+  }
+}
+
+
+.my-class {
+  display: block;
+  font-size: 12px;
+}
+
+
+@media (max-width: 375px) {
+  .my-class {
+    font-size: 15px;
+  }
+}
+
+/* --- End of media query max-width 375px --- */
