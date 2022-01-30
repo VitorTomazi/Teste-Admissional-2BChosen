@@ -8,14 +8,14 @@ body {
   color: white;
 }
 
-/* --- Responsive code for all images ---*/
+/* --- Código para a responsividade de todas as imagens ---*/
 .responsive-image {
   width: 100%;
   height: auto;
 }
 
-/* --- Start of header code ---*/
-/* Start of the 3 stars images code */
+/* --- Início do header ---*/
+/* Início das 3 estrelas */
 #stars-box {
   margin: 2rem;
   display: flex;
@@ -34,12 +34,12 @@ body {
 #right-star {
   margin-left: -1rem;
 }
-/* --- End of the 3 stars images code ---*/
-/* --- End of header ---*/
+/* --- Fim das 3 estrelas ---*/
+/* --- Fim do Header ---*/
 
 
 
-/* --- Start of main ---*/
+/* --- Início do main ---*/
 section#bellow-header-image-section {
   max-width: 100%;
   display: flex;
@@ -59,7 +59,7 @@ div.first-main-section-boxes {
 div.first-main-section-boxes > p {
   margin-top: 18%;
 }
-/* --- Start of the main-description-section box. Be aware that this box is split in two sides using flex-box ---*/
+/* --- Início do main-description-section box. Atentar ao flex-box ---*/
 section#main-description-section {
   display: flex;
 
@@ -68,13 +68,13 @@ section#main-description-section {
 
 }
 
-/* --- Start of the left side ---*/
+/* --- Início do lado esquerdo (flex-box) ---*/
 div#left-side-description-section {
   flex: 1 1;
   flex-direction: column;
 }
 
-div#h2-description-box {
+div#h1-description-box {
   font-weight: 700;
   font-size: 2.5em;
   margin-bottom: 15%;
@@ -84,25 +84,25 @@ div#p-description-box {
   font-size: 1.6em;
   margin-top: 15%;
 }
-/* --- End of the left side ---*/
+/* --- Fim do lado esquerdo (flex-box) ---*/
 
-/* --- Start of the right side ---*/
+/* --- Início do lado direito (flex-box) ---*/
 div#right-side-description-section {
   margin-left: 3%;
   flex: 1 1;
 }
-/* --- End of the right side ---*/
-/* --- End of the main-description-section box ---*/
+/* --- Fim do lado direito (flex-box) ---*/
+/* --- Fim do main-description-section ---*/
 
 
-/* --- Start of the dinner-table-section ---*/
+/* --- Início do dinner-table-section ---*/
 section#dinner-table-section {
   margin: 5% 0 10% 0;
 }
-/* --- End of the dinner-table-section ---*/
+/* --- Fim do dinner-table-section ---*/
 
 
-/* --- Start of the photos-galery section ---*/
+/* --- Início do photos-galery section ---*/
 section#photos-galery {
   margin: 0 15% 0 15%;
 }
@@ -130,10 +130,10 @@ div#photos-galery-display {
 div#display5-box {
   margin-right: 0;
 }
-/* --- End of the photos-galery section ---*/
+/* --- Fim do photos-galery section ---*/
 
 
-/* --- Start of contact-form ---*/
+/* --- Início do contact-form ---*/
 section#contact-form {
   text-transform: uppercase;
   max-width: 35%;
@@ -151,6 +151,7 @@ section#contact-form {
 .contact-individual-boxes {
   text-align: start;
   font-size: 1.3rem;
+  margin-bottom: 1em;
 }
 
 input, textarea {
@@ -177,11 +178,11 @@ div#submit-buttom {
   color: black;
   font-weight: 400;
 }
-/* --- End of contact-form --- */
-/* --- End of main --- */
+/* --- Fim do contact-form --- */
+/* --- Fim do main --- */
 
 
-/* --- Start of footer --- */
+/* --- Início do footer --- */
 footer {
   margin: 5% 32% 0 32%;
   text-align: left;
@@ -189,6 +190,7 @@ footer {
   line-height: 3;
 }
 
+/* --- Se refere a margem direita do logo do mapa e telefone dos seus respectivos textos --- */
 span > img {
   margin-right: 3%;
 }
@@ -211,8 +213,8 @@ div > a {
 
 
 
-/* --- Start of Medias query / Responsividade --- */
-/* --- Start of media query min-width 2560px --- */
+/* --- Início das Medias query / Responsividade --- */
+/* --- Início da media query min-width 2560px --- */
 @media (min-width: 2560px) {
 
   html {
@@ -266,10 +268,10 @@ div > a {
     margin: 0 5% 0 5%;
   }
 }
-/* --- End of media query min-width 2560px --- */
+/* --- Fim da media query min-width 2560px --- */
 
 
-/* --- Start of media query max-width 1440px --- */
+/* --- Início da media query max-width 1440px --- */
 @media (max-width: 1440px) {
 
   section#contact-form {
@@ -312,10 +314,10 @@ div > a {
     margin: 0 5% 0 5%;
   }
 }
-/* End of media query max-width 1440px*/
+/* Fim da media query max-width 1440px*/
 
 
-/* --- Start of media query max-width 1360px --- */
+/* --- Início da media query max-width 1360px --- */
 @media (max-width: 1360px) {
 
   section#contact-form {
@@ -344,10 +346,10 @@ div > a {
     height: 53px;
   }
 }
-/* --- End of media query max-width 1360px --- */
+/* --- Fim da media query max-width 1360px --- */
+ 
 
-
-/* --- Start of media query max-width 1024px --- */
+/* --- Início da media query max-width 1024px --- */
 @media (max-width: 1024px) {
 
   section#contact-form {
@@ -402,10 +404,10 @@ div > a {
     left: 48rem;
   }
 }
-/* --- End of media query max-width 1024px --- */
+/* --- Fim da media query max-width 1024px --- */
 
 
-/* --- Start of media query max-width 768px --- */
+/* --- Início da media query max-width 768px --- */
 @media (max-width: 768px) {
   section#contact-form {
     max-width: 60%;
@@ -456,10 +458,10 @@ div > a {
     height: auto;
   }
 }
-/* --- End of media query max-width 768px --- */
+/* --- Fim da media query max-width 768px --- */
 
 
-/* --- Start of media query max-width 425px --- */
+/* --- Início da media query max-width 425px --- */
 @media (max-width: 425px) {
   section#contact-form {
     max-width: 80%;
@@ -507,7 +509,7 @@ div > a {
     margin: 5% auto 5% auto;
   }
 
-  div#h2-description-box {
+  div#h1-description-box {
     margin-bottom: 5%;
 }
 
@@ -537,10 +539,10 @@ div > a {
     height: auto;
   }
 }
-/* --- End of media query max-width 425px --- */
+/* --- Fim da media query max-width 425px --- */
 
 
-/* --- Start of media query max-width 375px --- */
+/* --- Início da media query max-width 375px --- */
 @media (max-width: 375px) {
   section#contact-form {
     max-width: 80%;
@@ -608,4 +610,4 @@ div > a {
   }
 }
 
-/* --- End of media query max-width 375px --- */
+/* --- Fim da media query max-width 375px --- */
