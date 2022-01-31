@@ -1,3 +1,5 @@
+💲 - Dcoumentação SEO - 💲
+
 1 - Realizado todo estudo de SEO na suposição de que o projeto era uma home page e voltado a um curso de culinária e não a um restaurante. O motivo da mesma seriam as fotos de diferentes tipos de culinária presentes na página seguido de um formulário de dados, possivelmente para a inscrição no respectivo curso;
 
 2 - Definiu-se então que a palavra-chave "curso-de-culinária-para-iniciantes" seria mais apropriada e eficaz (com menor concorrência) do que o genérico "curso-de-culinária". O nível "iniciantes" foi baseado em uma hipótese.
@@ -12,6 +14,6 @@
 
 7 - URL sugerida como: "https://www.2bchosenculinary.com.br" por ser uma home page. Em caso de um diretório, indicaria-se "https://www.2bchosenculinary.com.br/cursos/curso-de-culinaria-para-iniciantes". Desta forma, o respectivo diretório teria uma boa semântica para o buscador;
 
-8 - Código HTML e CSS revisado afim de deixar em português (com exceção das IDs e Classes) os nomes das imagens, o alt="" das mesmas e documentação interna para os demais Devs. Objetivo é aumentar o rankeamento dos buscadores e facilitar a leitura de quem ainda está aprendendo inglês;
+8 - Código HTML e CSS revisado afim de deixar em português os nomes das imagens, o alt="" das mesmas e documentação interna para os demais Devs (com exceção das IDs e Classes). Objetivo é aumentar o rankeamento dos buscadores e facilitar a leitura de quem ainda está aprendendo inglês;
 
 9 - Feita a verificação das imagens em relação ao DPI afim de receber pontuação positiva nos buscadores. Todas já com 72 px/in;

@@ -1,4 +1,6 @@
-IMPORTANTE: Neste arquivo de texto possuí documentação somente pertinente ao código HTML. Por gentileza ler também a documentação sobre SEO localizada em ./SEO no qual contém pontos que refletem indiretamente ao HTML;
+💻 - Documentação HTML - 💻
+
+❗❗❗ IMPORTANTE: ❗❗❗ Neste arquivo de texto possuí documentação somente pertinente ao código HTML. Por gentileza ler também a documentação sobre SEO localizada em ./SEO no qual contém pontos que refletem indiretamente ao HTML;
 
 1 - Nome do projeto definido como "2BChosenCulinary". Ler "Documentação SEO" para mais informações sobre esta tomada de decisão; 
 
