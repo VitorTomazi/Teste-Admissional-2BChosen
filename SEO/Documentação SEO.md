@@ -6,11 +6,11 @@
 
 3 - Nao foi possível utilizar o Google AdWords devido a restrição da empresa para somente uso comercial. As ferramentas utilizadas foram o "pt.semrush.com" (somente uma pesquisa de palavra-chave foi permitida de forma gratuíta) e da extensão "Keywords Everywhere" (dados muito básicos na versão free). Desta forma, infelizmente a pesquisa na palavra chave escolhida por mim teve um conclusão limitada;
 
-4 - Definida a tag H1 dentro da <div id="h1-description-box">;
+4 - Definida a tag H1 dentro da div id="h1-description-box";
 
-5 - Na tag <title> o nome da empresa veio propositalmente à frente da palavra chave devido ser a home page. Caso fosse um diretório, a tag <title> receberia "Curso de Culinária para Iniciantes | 2BChosenCulinary";
+5 - Na tag title o nome da empresa veio propositalmente à frente da palavra chave devido ser a home page. Caso fosse um diretório, a tag title receberia "Curso de Culinária para Iniciantes | 2BChosenCulinary";
 
-6 - Tag <meta name="content"> setada atentando para por a palavra chave por completo e respeitando a regra dos 2% de frequência. Observado também em não por informações que podem variar (preço, telefone, etc);
+6 - Tag meta name="content" setada atentando para por a palavra chave por completo e respeitando a regra dos 2% de frequência. Observado também em não por informações que podem variar (preço, telefone, etc);
 
 7 - URL sugerida como: "https://www.2bchosenculinary.com.br" por ser uma home page. Em caso de um diretório, indicaria-se "https://www.2bchosenculinary.com.br/cursos/curso-de-culinaria-para-iniciantes". Desta forma, o respectivo diretório teria uma boa semântica para o buscador;
 
